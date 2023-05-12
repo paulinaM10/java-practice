@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+/*
+ * Area of Rectangle = length of Rectangle * breadth of rectangle 
+ */
+
+public class UserInputDemoOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		
+		float piNum = 3.142f;
+		
+		System.out.println("Enter the radius: ");
+		float radius=scanner.nextFloat();
+		
+		float area = piNum*radius*radius;
+		
+		System.out.println("Area is: " +area );
+		
+		float circum = 2*piNum*radius;
+  
+		
+		System.out.println("Circumference is: " + circum);
+		
+		
+
+	}
+
+}

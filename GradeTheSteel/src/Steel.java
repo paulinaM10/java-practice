@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Steel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner=new Scanner(System.in);
+		
+
+		System.out.println("Enter the Carbon Content : ");
+		int carbonCon=scanner.nextInt();
+
+		System.out.println("Enter Hardness : ");
+		double hardness=scanner.nextDouble();
+
+		System.out.println("Enter Tensile Strength :");
+		int tensileStrength=scanner.nextInt();
+		
+		
+		if (carbonCon > 5700 && hardness < 0.7 && tensileStrength >= 97) {
+			System.out.println("Grade 10");
+		}else if (carbonCon > 5700 && hardness < 0.7) {
+			System.out.println("Grade 9");
+
+		}else if (hardness < 0.7 && tensileStrength >= 97) {
+			System.out.println("Grade 8");
+
+		}else if (carbonCon > 5700 && tensileStrength >= 97) {
+			System.out.println("Grade 7");
+
+		}else if (carbonCon > 5700 || hardness < 0.7 ||tensileStrength >= 97 ){
+			System.out.println("Grade 6");
+
+		}else if (!(carbonCon > 5700) || !(hardness < 0.7) || !(tensileStrength >= 97)) {
+			System.out.println("Grade 5");
+		}else {
+			System.out.println("Can not be graded");
+
+		}
+		
+
+	
+
+	}
+
+}

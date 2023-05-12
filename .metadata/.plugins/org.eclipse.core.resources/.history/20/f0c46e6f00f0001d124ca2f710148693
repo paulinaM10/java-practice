@@ -1,0 +1,62 @@
+
+import java.util.Scanner;
+
+public class CalculateArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		int selectedNumber=scanner.nextInt();
+		
+		
+		
+		
+		
+		switch(selectedNumber) {
+		case 1:
+			System.out.println("Enter the length : ");
+			int length=scanner.nextInt();
+			System.out.println("Enter the width : ");
+			int width=scanner.nextInt();
+			
+			int result = length*width;
+			System.out.println("Area is : "+ result);
+			break;
+			
+		case 2:
+			System.out.println("Enter the radius : ");
+			int radius=scanner.nextInt();
+			
+			double piNum = 3.14f;
+
+		
+			double resultCircle = piNum*radius*radius;
+			System.out.println("Area is : "+ resultCircle);
+			break;
+		case 3:
+			System.out.println("Enter the hight : ");
+			int hight=scanner.nextInt();
+			System.out.println("Enter the base : ");
+			int base=scanner.nextInt();
+			
+			int resultTriangle = (hight*base)/2;
+			System.out.println("Area is : "+ resultTriangle);
+			break;
+		case 4:
+			System.out.println("Enter the side : ");
+			int side=scanner.nextInt();
+			
+			int resultSquare = side*side;
+			System.out.println("Area is : "+ resultSquare);
+			break;
+		
+		default:
+			System.out.println("invalid number");
+		}
+		
+		System.out.println("Good Bye");
+
+	}
+  }
+
+
