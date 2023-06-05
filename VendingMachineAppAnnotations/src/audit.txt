@@ -1,0 +1,13 @@
+2023-05-31T19:07:08.972195 : Item Coke vended.
+2023-05-31T19:07:37.262444 : Item KitKat vended.
+2023-05-31T19:08:52.364021 : Item Coke vended.
+2023-05-31T20:01:10.431612 : Item Pepsi vended.
+2023-06-01T10:19:50.655544 : Item Coke vended.
+2023-06-01T10:59:09.227119 : Item 1 vended.
+2023-06-01T11:03:23.358040 : Item 1 vended.
+2023-06-01T11:05:17.451682 : Item 4 vended.
+2023-06-01T15:12:02.924610 : Item 1 vended.
+2023-06-01T15:15:17.801001 : Item 1 vended.
+2023-06-01T15:19:33.106306 : Item 1 vended.
+2023-06-01T15:24:51.824732 : Item 1 vended.
+2023-06-01T15:30:35.167080 : Item 1 vended.
